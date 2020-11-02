@@ -40,8 +40,8 @@ class WeatherDisplay extends Component {
         </h1>
         <p>Температура: {weatherData.main.temp} C°</p>
         <p>Давление: {weatherData.main.pressure}мм рт. ст.</p>
-        <p>Влажность воздуха: {weatherData.main.humidity}% </p>
-        <p>Скорость ветра: {weatherData.wind.speed} м/с </p>
+        <p>Влажность воздуха: {weatherData.main.humidity}%</p>
+        <p>Скорость ветра: {weatherData.wind.speed} м/с</p>
       </div>
     );
   }
